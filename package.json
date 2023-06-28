@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node index.js"
+    "start": "npm 1 -g pm2  && pm2 start index.js && pm2 save && logs "
   },
   "author": "Zeeoneofc",
   "license": "MIT",
